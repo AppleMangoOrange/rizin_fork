@@ -4361,6 +4361,34 @@ ARM32 relocations:
 #define R_SPARC_BITMASK_SIMM13    0x00001fff
 #define R_SPARC_BITMASK_SIMM22    0x003fffff
 
+/* AVR Relocations */
+#define R_AVR_NONE           0
+#define R_AVR_32             1
+#define R_AVR_7_PCREL        2
+#define R_AVR_13_PCREL       3
+#define R_AVR_16             4
+#define R_AVR_16_PM          5
+#define R_AVR_LO8_LDI        6
+#define R_AVR_HI8_LDI        7
+#define R_AVR_HH8_LDI        8
+#define R_AVR_LO8_LDI_NEG    9
+#define R_AVR_HI8_LDI_NEG    10
+#define R_AVR_HH8_LDI_NEG    11
+#define R_AVR_LO8_LDI_PM     12
+#define R_AVR_HI8_LDI_PM     13
+#define R_AVR_HH8_LDI_PM     14
+#define R_AVR_LO8_LDI_PM_NEG 15
+#define R_AVR_HI8_LDI_PM_NEG 16
+#define R_AVR_HH8_LDI_PM_NEG 17
+#define R_AVR_CALL           18
+#define R_AVR_LDI            19
+#define R_AVR_6              20
+#define R_AVR_6_ADIW         28
+#define R_AVR_MS8_LDI        29
+#define R_AVR_SYM_DIFF       33
+#define R_AVR_PORT6          34
+#define R_AVR_PORT5          35
+
 /* Dynamic array tags */
 
 #define DT_HEXAGON_SYMSZ 0x70000000
